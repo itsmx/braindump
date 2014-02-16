@@ -3,682 +3,968 @@
 	"data" :
 	[
 		{
-			"categories" : [ "Bäume" ],
-			"questions"  : [ "Welches ist keine Traversierungsart?" ],
-			"statistic" :
+			"categories" :
+			[
+				"Bäume",
+				"Baumtraversierung"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"Welches ist keine Traversierungsart?" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "suborder" ], 
-				"wrong" : [ "preorder", "postorder", "inorder" ]
+				"right" :
+				{
+					"suborder"   : 0,
+					"fixedorder" : 0,
+					"noneorder"  : 0
+				}, 
+				"wrong" : 
+				{ 
+					"preorder" : 0,
+					"postorder" : 0,
+					"inorder" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "TechGI" ],
-			"questions"  : [ "Wofür steht FPGA?" ],
-			"statistic" :
+			"categories" :
+			[
+				"TechGI",
+				"Abkürzungen"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"Wofür steht FPGA?" : 0,
+				"FPGA steht für"    : 0
 			},
 			"answers" :
 			{
-				"right" : [ "Field Programmable Gate Array" ], 
-				"wrong" : [ "Final Port Gate Array", "Fixed Portable Great Awesome", "Frequently Programmed Game Application" ]
+				"right" :
+				{
+					"Field Programmable Gate Array" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"Final Port Gate Array" : 0,
+					"Fixed Portable Great Awesome" : 0,
+					"Frequently Programmed Game Application" :0,
+					"Fast Programmable Gate Array" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Listenfunktionale" ],
-			"questions"  : [ "Welche dieser Listenfunktionale wendet eine übergebene Funktion auf jedes Element der Liste an?" ],
-			"statistic" :
+			"categories" :
+			[
+				"Listenfunktionale"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"Welche dieser Listenfunktionale wendet eine übergebene Funktion auf jedes Element der Liste an?" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "map" ], 
-				"wrong" : [ "reduce", "filter", "Es gibt kein Listenfunktional, das so etwas kann" ]
+				"right" :
+				{
+					"map" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"reduce" : 0,
+					"filter" : 0,
+					"Es gibt kein Listenfunktional, das so etwas kann" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Monaden" ],
-			"questions"  : [ "Mit welchem Operator können z.B IO-Befehle verkettet werden?" ],
-			"statistic" :
+			"categories" :
+			[
+				"Monaden"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"Mit welchem Operator können z.B IO-Befehle verkettet werden?" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "&" ],
-				"wrong" : [ "++", "::", "&&" ]
+				"right" :
+				{
+					"&" : 0
+				},
+				"wrong" : 
+				{ 
+					"++" : 0,
+					"::" : 0,
+					"&&" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Listenfunktionale" ],
-			"questions"  : [ "Wofür ist reduce zuständig" ],
-			"statistic" :
+			"categories" :
+			[
+				"Listenfunktionale"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"Wofür ist reduce zuständig" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "Listenelemente zusammenfassen" ], 
-				"wrong" : [ "Datentyp der Listenelemente ändern", "Liste komprimmieren", "Programmcode verkürzen" ]
+				"right" :
+				{
+					"Listenelemente zusammenfassen" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"Datentyp der Listenelemente ändern" : 0,
+					"Liste komprimmieren" : 0,
+					"Programmcode verkürzen" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Datentypen" ],
-			"questions"  : [ "TYPE book == book(author : person,<br/>title : denotation ,<br/>year : nat<br/>Welcher Datentyp liegt hier vor?" ],
-			"statistic" :
+			"categories" :
+			[
+				"Datentypen"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"TYPE book == book(author : person,<br/>title : denotation ,<br/>year : nat<br/>Welcher Datentyp liegt hier vor?" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "Produkttyp" ], 
-				"wrong" : [ "Summentyp", "Aufzählungstyp", "Rekursiver Datentyp" ]
+				"right" :
+				{
+					"Produkttyp" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"Summentyp" : 0,
+					"Aufzählungstyp" : 0,
+					"Rekursiver Datentyp" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Datentypen" ],
-			"questions"  : [ "TYPE book == book(author : person,<br/>title : denotation ,<br/>year : nat<br/>Welcher der Folgenden Teile gehört nicht zur induzierten Signatur" ],
-			"statistic" :
+			"categories" :
+			[
+				"Datentypen"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"TYPE book == book(author : person,<br/>title : denotation ,<br/>year : nat<br/>Welcher der Folgenden Teile gehört nicht zur induzierten Signatur" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "FUN book person ** denotation -> book" ], 
-				"wrong" : [ "SORT book", "FUN book: person ** denotation ** nat -> book", "FUN book?: book -> bool" ]
+				"right" :
+				{
+					"FUN book person ** denotation -> book" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"SORT book" : 0,
+					"FUN book: person ** denotation ** nat -> book" : 0,
+					"FUN book?: book -> bool" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Bäume" ],
-			"questions"  : [ "Um was für eine Traversierungsart handelt es sich bei preOrder" ],
-			"statistic" :
+			"categories" :
+			[
+				"Bäume"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"Um was für eine Traversierungsart handelt es sich bei preOrder" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "root - left - right" ], 
-				"wrong" : [ "left - right - root", "left - root - right", "right root left" ]
+				"right" :
+				{
+					"root - left - right" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"left - right - root" : 0,
+					"left - root - right" : 0,
+					"right root left" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Bäume" ],
-			"questions"  : [ "Um was für eine Traversierungsart handelt es sich bei inOrder" ],
-			"statistic" :
+			"categories" :
+			[
+				"Bäume"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"Um was für eine Traversierungsart handelt es sich bei inOrder" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "left - root - right" ], 
-				"wrong" : [ "left - right - root", "root - left - right", "right root left" ]
+				"right" :
+				{
+					"left - root - right" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"left - right - root" : 0,
+					"root - left - right" : 0,
+					"right root left" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Bäume" ],
-			"questions"  : [ "Um was für eine Traversierungsart handelt es sich bei postOrder" ],
-			"statistic" :
+			"categories" :
+			[
+				"Bäume"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"Um was für eine Traversierungsart handelt es sich bei postOrder" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "left - right - root" ], 
-				"wrong" : [ "left - root - right", "root - left - right", "right root left" ]
+				"right" :
+				{
+					"left - right - root" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"left - root - right" : 0,
+					"root - left - right" : 0,
+					"right root left" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Bäume" ],
-			"questions"  : [ "Was für einen Vorteil hat eine inOrder Traversierung auf einem sortiertem Binärbaum?" ],
-			"statistic" :
+			"categories" :
+			[
+				"Bäume"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"Was für einen Vorteil hat eine inOrder Traversierung auf einem sortierte Binärbaum?" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "Die generierte Liste ist Sortiert" ], 
-				"wrong" : [ "Schnelle Laufzeit", "Die generierte Liste ist minimal groß", "Alle Wurzeln stehen hintereinander" ]
+				"right" :
+				{
+					"Die generierte Liste ist Sortiert" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"Schnelle Laufzeit" : 0,
+					"Die generierte Liste ist minimal groß" : 0,
+					"Alle Wurzeln stehen hintereinander" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Bäume" ],
-			"questions"  : [ "Was geschieht, wenn man bei einem Baum mit mehr als einem Knoten eine Kante entfernt?" ],
-			"statistic" :
+			"categories" :
+			[
+				"Bäume"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"Was geschieht, wenn man bei einem Baum mit mehr als einem Knoten eine Kante entfernt?" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "Es entsteht ein Wald" ], 
-				"wrong" : [ "nicht geschieht", "Der Wert des zugehörigen Blattes geht für immer verloren", "Kanten können nicht entfernt werden" ]
+				"right" :
+				{
+					"Es entsteht ein Wald" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"nichts geschieht" : 0,
+					"Der Wert des zugehörigen Blattes geht für immer verloren" : 0,
+					"Kanten können nicht entfernt werden" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Listenfunktionale" ],
-			"questions"  : [ "Welches der Folgenden ist kein Listenfunktional" ],
-			"statistic" :
+			"categories" :
+			[
+				"Listenfunktionale"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"Welches der Folgenden ist kein Listenfunktional" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "split" ], 
-				"wrong" : [ "map", "filter", "reduce" ]
+				"right" :
+				{
+					"split" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"map" : 0,
+					"filter" : 0,
+					"reduce" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Listenfunktionale "],
-			"questions"  : [ "Was macht filter?" ],
-			"statistic" :
+			"categories" :
+			[
+				"Listenfunktionale"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"Was macht filter?" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "Selektiert alle Elemente, die ein bestimmtes Prädikat erfüllen und entfernt sie aus der Liste" ], 
-				"wrong" : [ "Löscht doppelte Elemente", "filtert alle Elemente, die kleiner als ein eingegebenes sind aus der Liste", "sortiert die Liste" ]
+				"right" :
+				{
+					"Selektiert alle Elemente, die ein bestimmtes Prädikat erfüllen und entfernt sie aus der Liste" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"Löscht doppelte Elemente" : 0,
+					"filtert alle Elemente, die kleiner als ein eingegebenes sind aus der Liste" : 0,
+					"sortiert die Liste" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "MPGI1" ],
-			"questions"  : [ "Wie heißt der Erfinder der Programmiersprache OPAL?" ],
-			"statistic" :
+			"categories" :
+			[
+				"MPGI1"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"Wie heißt der Erfinder der Programmiersprache OPAL?" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "Dr.Pepper" ], 
-				"wrong" : [ "Professor Pepsi", "Vitali Cola", "Prof. Dr. Opalos III" ]
+				"right" :
+				{
+					"Dr.Pepper" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"Professor Pepsi" : 0,
+					"Vitali Cola" : 0,
+					"Prof. Dr. Opalos"  : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Bäume" ],
-			"questions"  : [ "Was ist ein Binärbaum?" ],
-			"statistic" :
+			"categories" :
+			[
+				"Bäume"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"Was ist ein Binärbaum?" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "Baum mit höchstens 2 Nachfolgern" ], 
-				"wrong" : [ "Baum mit mindestens 2 Nachfolgern", "Baum mit binärem Knoteninhalt", "Baum mit 2 Knoten" ]
+				"right" :
+				{
+					"Baum mit höchstens 2 Nachfolgern" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"Baum mit mindestens 2 Nachfolgern" : 0,
+					"Baum mit binärem Knoteninhalt" : 0,
+					"Baum mit 2 Knoten" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Aufwandsberechnung" ],
-			"questions"  : [ "Was ist größer O(n²) oder O(n log(n))?" ],
-			"statistic" :
+			"categories" :
+			[
+				"Aufwandsberechnung"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"Was ist größer O(n²) oder O(n log(n))?" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "O(n²)" ], 
-				"wrong" : [ "(n log(n))", "gleich groß", "keine Ahnung" ]
+				"right" :
+				{
+					"O(n²)" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"(n log(n))" : 0,
+					"gleich groß" : 0,
+					"keine Ahnung" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Aufwandsberechnung" ],
-			"questions"  : [ "FUN g: nat -> nat<br/>DEF g(n) == f(n-1) +5<br/> Welcher der Folgenden ist der passende Aufwandsterm?" ],
-			"statistic" :
+			"categories" :
+			[
+				"Aufwandsberechnung"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"FUN g: nat -> nat<br/>DEF g(n) == f(n-1) +5<br/> Welcher der Folgenden ist der passende Aufwandsterm?" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "A(f(n-1)) + A(+)" ], 
-				"wrong" : [ "A(fg(n+1)) + A(*)", "A(f(n)) + A(+)", "A(f(n-1)) + A(g(n))" ]
+				"right" :
+				{
+					"A(f(n-1)) + A(+)" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"A(fg(n+1)) + A(*)" : 0,
+					"A(f(n)) + A(+)" : 0,
+					"A(f(n-1)) + A(g(n))" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Aufwandsberechnung" ],
-			"questions"  : [ "Wie viele Rekurrenzrelationen gibt es?" ],
-			"statistic" :
+			"categories" :
+			[
+				"Aufwandsberechnung"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"Wie viele Rekurrenzrelationen gibt es?" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "5" ], 
-				"wrong" : [ "7", "3", "4" ]
+				"right" :
+				{
+					"5" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"7" : 0,
+					"3" : 0,
+					"4" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Rekursion" ],
-			"questions"  : [ "Was ist eine verschränkte Rekursion?" ],
-			"statistic" :
+			"categories" :
+			[
+				"Rekursion"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"Was ist eine verschränkte Rekursion?" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "2 Funktionen die sich gegenseitig aufrufen" ], 
-				"wrong" : [ "Eine Funktion die nur sich selbst aufruft", "Eine schnell wachsende Tail-Recursion", "Eine Baumartige Rekursion mit Aufwand O(n)" ]
+				"right" :
+				{
+					"2 Funktionen die sich gegenseitig aufrufen" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"Eine Funktion die nur sich selbst aufruft" : 0,
+					"Eine schnell wachsende Tail-Recursion" : 0,
+					"Eine Baumartige Rekursion mit Aufwand O(n)" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Rekursion" ],
-			"questions"  : [ "Was passiert bei einer baumartigen Rekursion?" ],
-			"statistic" :
+			"categories" :
+			[
+				"Rekursion"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"Was passiert bei einer baumartigen Rekursion?" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "Rekursionsaufrufe wachsen zu Baumartiger struktur an" ], 
-				"wrong" : [ "Der Rekursionsanker wird nie erreicht", "Die Parameter werden nicht inkrementiert", "Es entsteht ein Rot-Schwarz Baum" ]
+				"right" :
+				{
+					"Rekursionsaufrufe wachsen zu Baumartiger struktur an" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"Der Rekursionsanker wird nie erreicht" : 0,
+					"Die Parameter werden nicht inkrementiert" : 0,
+					"Es entsteht ein Rot-Schwarz Baum" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Konstrukte" ],
-			"questions"  : [ "IF x < 5 THEN 1<br/>IF x > 5 THEN 2<br/>IF x = 5 THEN 3<br/>Wie heißt diese Struktur?" ],
-			"statistic" :
+			"categories" :
+			[
+				"Konstrukte"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"IF x < 5 THEN 1<br/>IF x > 5 THEN 2<br/>IF x = 5 THEN 3<br/>Wie heißt diese Struktur?" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "Dijkstra-IF" ], 
-				"wrong" : [ "Synthetic-If", "Pepper-IF", "Elseless-IF" ]
+				"right" :
+				{
+					"Dijkstra-IF" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"Synthetic-If" : 0,
+					"Pepper-IF" : 0,
+					"Elseless-IF" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Rekursion" ],
-			"questions"  : [ "f(x) = f(x-1)<br/>Um welche Rekursionsart handelt es sich?" ],
-			"statistic" :
+			"categories" :
+			[
+				"Rekursion"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"f(x) = f(x-1)<br/>Um welche Rekursionsart handelt es sich?" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "Repetitive Rekursion/Tail-Recursion" ], 
-				"wrong" : [ "Lineare Rekursion", "Geschachtelte Rekursion", "Verschränkte Rekursion" ]
+				"right" :
+				{
+					"Repetitive Rekursion/Tail-Recursion" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"Lineare Rekursion" : 0,
+					"Geschachtelte Rekursion" : 0,
+					"Verschränkte Rekursion" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Rekursion" ],
-			"questions"  : [ "f(x) = 1 + f(x-1)<br/>Um welche Rekursionsart handelt es sich?" ],
-			"statistic" :
+			"categories" :
+			[
+				"Rekursion"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"f(x) = 1 + f(x-1)<br/>Um welche Rekursionsart handelt es sich?" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "Lineare Rekursion" ], 
-				"wrong" : [ "Repetitive Rekursion/Tail-Recursion", "Geschachtelte Rekursion", "Verschränkte Rekursion" ]
+				"right" :
+				{
+					"Lineare Rekursion" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"Repetitive Rekursion/Tail-Recursion" : 0,
+					"Geschachtelte Rekursion" : 0,
+					"Verschränkte Rekursion" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Rekursion" ],
-			"questions"  : [ "f(x) = f(x-1) + f(x-2)<br/>Um welche Rekursionsart handelt es sich?" ],
-			"statistic" :
+			"categories" :
+			[
+				"Rekursion"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"f(x) = f(x-1) + f(x-2)<br/>Um welche Rekursionsart handelt es sich?" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "Baumartige Rekursion" ], 
-				"wrong" : [ "Repetitive Rekursion/Tail-Recursion", "Geschachtelte Rekursion", "Verschränkte Rekursion" ]
+				"right" :
+				{
+					"Baumartige Rekursion" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"Repetitive Rekursion/Tail-Recursion" : 0,
+					"Geschachtelte Rekursion" : 0,
+					"Verschränkte Rekursion" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Rekursion" ],
-			"questions"  : [ "f(x) = f(f(x*2))<br/>Um welche Rekursionsart handelt es sich?" ],
-			"statistic" :
+			"categories" :
+			[
+				"Rekursion"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"f(x) = f(f(x*2))<br/>Um welche Rekursionsart handelt es sich?" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "Geschachtelte Rekursion" ], 
-				"wrong" : [ "Repetitive Rekursion/Tail-Recursion", "Lineare Rekursion", "Verschränkte Rekursion" ]
+				"right" :
+				{
+					"Geschachtelte Rekursion" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"Repetitive Rekursion/Tail-Recursion" : 0,
+					"Lineare Rekursion" : 0,
+					"Verschränkte Rekursion" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Rekursion" ],
-			"questions"  : [ "f(x) = g(x-1)<br/>g(x) = f(x-1)<br/>Um welche Rekursionsart handelt es sich?" ],
-			"statistic" :
+			"categories" :
+			[
+				"Rekursion"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"f(x) = g(x-1)<br/>g(x) = f(x-1)<br/>Um welche Rekursionsart handelt es sich?" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "Verschränkte Rekursion" ], 
-				"wrong" : [ "Repetitive Rekursion/Tail-Recursion", "Lineare Rekursion", "Baumartige Rekursion" ]
+				"right" :
+				{
+					"Verschränkte Rekursion" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"Repetitive Rekursion/Tail-Recursion" : 0,
+					"Lineare Rekursion" : 0,
+					"Baumartige Rekursion" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Datentypen" ],
-			"questions"  : [ "Welche der folgenden Signaturen passt zu einem Diskriminator" ],
-			"statistic" :
+			"categories" :
+			[
+				"Datentypen"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"Welche der folgenden Signaturen passt zu einem Diskriminator" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "FUN cat?: animal -> bool" ], 
-				"wrong" : [ "FUN name: animal -> string", "FUN cat: string ** nat -> cat", "FUN catConv: cat -> dog" ]
+				"right" :
+				{
+					"FUN cat?: animal -> bool" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"FUN name: animal -> string" : 0,
+					"FUN cat: string ** nat -> cat" : 0,
+					"FUN catConv: cat -> dog" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Datentypen" ],
-			"questions"  : [ "TYPE animal = cat(name: string, age: nat)<br/>Welche der folgenden induzierten Signaturen passt zu einem Selektor für den Namen einer Katze?" ],
-			"statistic" :
+			"categories" :
+			[
+				"Datentypen"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"TYPE animal = cat(name: string, age: nat)<br/>Welche der folgenden induzierten Signaturen passt zu einem Selektor für den Namen einer Katze?" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "FUN name: animal -> string" ], 
-				"wrong" : [ "FUN cat?: cat -> bool", "FUN cat: string ** nat -> cat", "FUN catConv: cat -> dog" ]
+				"right" :
+				{
+					"FUN name: animal -> string" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"FUN cat?: cat -> bool" : 0,
+					"FUN cat: string ** nat -> cat" : 0,
+					"FUN catConv: cat -> dog" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Datentypen" ],
-			"questions"  : [ "Welche der folgenden Signaturen passt zu einem Konstruktor" ],
-			"statistic" :
+			"categories" :
+			[
+				"Datentypen"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"Welche der folgenden Signaturen passt zu einem Konstruktor" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "FUN cat: string ** nat -> cat" ], 
-				"wrong" : [ "FUN cat?: animal -> bool", "FUN name: animal -> string", "FUN catConv: cat -> dog" ]
+				"right" :
+				{
+					"FUN cat: string ** nat -> cat" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"FUN cat?: animal -> bool" : 0,
+					"FUN name: animal -> string" : 0,
+					"FUN catConv: cat -> dog" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Datentypen" ],
-			"questions"  : [ "TYPE animal = cat(name: string,age:nat)<br/>\tdog(name: string)<br/>Welcher Datentyp liegt hier vor" ],
-			"statistic" :
+			"categories" :
+			[
+				"Datentypen"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"TYPE animal = cat(name: string,age:nat)<br/>\tdog(name: string)<br/>Welcher Datentyp liegt hier vor" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "Summentyp" ], 
-				"wrong" : [ "Produkttyp", "Aufzählungstyp", "Rekursiver Datentyp" ]
+				"right" :
+				{
+					"Summentyp" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"Produkttyp" : 0,
+					"Aufzählungstyp" : 0,
+					"Rekursiver Datentyp" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Datentypen" ],
-			"questions"  : [ "DATA animal = cat dog karakal elefant<br/>Welcher Datentyp liegt hier vor" ],
-			"statistic" :
+			"categories" :
+			[
+				"Datentypen"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"DATA animal = cat dog karakal elefant<br/>Welcher Datentyp liegt hier vor" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "Aufzählungstyp" ], 
-				"wrong" : [ "Produkttyp", "Summentyp", "Rekursiver Datentyp" ]
+				"right" :
+				{
+					"Aufzählungstyp" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"Produkttyp" : 0,
+					"Summentyp" : 0,
+					"Rekursiver Datentyp" :0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Datentypen" ],
-			"questions"  : [ "TYPE tree = node(key:alpha, left: tree, right: tree<br/>\tnil<br/>Welcher Datentyp liegt hier vor" ],
-			"statistic" :
+			"categories" :
+			[
+				"Datentypen"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
-			},
+				"TYPE tree = node(key:alpha, left: tree, right: tree<br/>\tnil<br/>Welcher Datentyp liegt hier vor" : 0
+				},
 			"answers" :
 			{
-				"right" : [ "Rekursiver Datentyp" ], 
-				"wrong" : [ "Produkttyp", "Summentyp", "Aufzählungstyp" ]
+				"right" :
+				{
+					"Rekursiver Datentyp" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"Produkttyp" : 0,
+					"Summentyp" : 0,
+					"Aufzählungstyp" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Listenfunktionale" ],
-			"questions"  : [ "FUN xxx: (in -> bool) ->  seq[in] -> seq[in]<br/> Die Signatur welches Listenfunktionals liegt hier vor?" ],
-			"statistic" :
+			"categories" :
+			[
+				"Listenfunktionale"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"FUN xxx: (in -> bool) ->  seq{in} -> seq{in}<br/> Die Signatur welches Listenfunktionals liegt hier vor?" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "filter" ], 
-				"wrong" : [ "map", "reduce", "zip" ]
+				"right" :
+				{
+					"filter" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"map" : 0,
+					"reduce" : 0,
+					"zip" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Listenfunktionale" ],
-			"questions"  : [ "FUN xxx: (a ** b -> c) ** b  ->  seq[a] ** seq[b] -> seq[c]<br/> Die Signatur welches Listenfunktionals liegt hier vor?" ],
-			"statistic" :
+			"categories" :
+			[
+				"Listenfunktionale"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"FUN xxx: (a ** b -> c) ** b  ->  seq{a} ** seq{b} -> seq{c}<br/> Die Signatur welches Listenfunktionals liegt hier vor?" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "zip" ], 
-				"wrong" : [ "map", "reduce", "filter" ]
+				"right" :
+				{
+					"zip" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"map" : 0,
+					"reduce" : 0,
+					"filter" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Listenfunktionale" ],
-			"questions"  : [ "FUN xxx: (a ** b -> b) ** b -> seq[a] -> b<br/> Die Signatur welches Listenfunktionals liegt hier vor?" ],
-			"statistic" :
+			"categories" :
+			[
+				"Listenfunktionale"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"FUN xxx: (a ** b -> b) ** b -> seq{a} -> b<br/> Die Signatur welches Listenfunktionals liegt hier vor?" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "reduce" ], 
-				"wrong" : [ "map", "filter", "zip" ]
+				"right" :
+				{
+					"reduce" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"map" : 0,
+					"filter" : 0,
+					"zip" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Listenfunktionale" ],
-			"questions"  : [ "FUN xxx: (a -> b) ->  seq[a] -> seq[b]<br/> Die Signatur welches Listenfunktionals liegt hier vor?" ],
-			"statistic" :
+			"categories" :
+			[
+				"Listenfunktionale"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"FUN xxx: (a -> b) ->  seq{a} -> seq{b}<br/> Die Signatur welches Listenfunktionals liegt hier vor?" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "map" ], 
-				"wrong" : [ "filter", "reduce", "zip" ]
+				"right" :
+				{
+					"map" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"filter" : 0,
+					"reduce" : 0,
+					"zip" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Bäume" ],
-			"questions"  : [ "Was bezeichnet man mit der Größe eines Baumes" ],
-			"statistic" :
+			"categories" :
+			[
+				"Bäume"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"Was bezeichnet man mit der Größe eines Baumes" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "Anzahl der Knoten" ], 
-				"wrong" : [ "Länge des längsten Pfades", "Anzahl der Kanten", "Größter Wert" ]
+				"right" :
+				{
+					"Anzahl der Knoten" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"Länge des längsten Pfades" : 0,
+					"Anzahl der Kanten" : 0,
+					"Größter Wert" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Bäume" ],
-			"questions"  : [ "Was bezeichnet man mit der Höhe eines Baumes" ],
-			"statistic" :
+			"categories" :
+			[
+				"Bäume"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"Was bezeichnet man mit der Höhe eines Baumes" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "Länge des längsten Pfades" ], 
-				"wrong" : [ "Anzahl der Knoten", "Anzahl der Kanten", "Größter Wert" ]
+				"right" :
+				{
+					"Länge des längsten Pfades" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"Anzahl der Knoten" : 0,
+					"Anzahl der Kanten" : 0,
+					"Größter Wert" : 0
+				}
 			}
 		},
 
 		{
-			"categories" : [ "Bäume" ],
-			"questions"  : [ "Was bezeichnet man mit der Pfadlänge eines Baumes" ],
-			"statistic" :
+			"categories" :
+			[
+				"Bäume"
+			],
+			"questions"  :
 			{
-				"right"   : 0,
-				"wrong"   : 0,
-				"skipped" : 0,
-				"rating"  : 0
+				"Was bezeichnet man mit der Pfadlänge eines Baumes" : 0
 			},
 			"answers" :
 			{
-				"right" : [ "Anzahl der Kanten" ], 
-				"wrong" : [ "Länge des längsten Pfades", "Anzahl der Knoten", "Größter Wert" ]
+				"right" :
+				{
+					"Anzahl der Kanten" : 0
+				}, 
+				"wrong" : 
+				{ 
+					"Länge des längsten Pfades" : 0,
+					"Anzahl der Knoten" : 0,
+					"Größter Wert" : 0
+				}
 			}
 		}
 	]
