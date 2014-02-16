@@ -12,6 +12,7 @@
 			{
 				"Welches ist keine Traversierungsart?" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -40,6 +41,7 @@
 				"Wofür steht FPGA?" : 0,
 				"FPGA steht für"    : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -65,6 +67,7 @@
 			{
 				"Welche dieser Listenfunktionale wendet eine übergebene Funktion auf jedes Element der Liste an?" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -89,6 +92,7 @@
 			{
 				"Mit welchem Operator können z.B IO-Befehle verkettet werden?" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -113,6 +117,7 @@
 			{
 				"Wofür ist reduce zuständig" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -137,6 +142,7 @@
 			{
 				"TYPE book == book(author : person,<br/>title : denotation ,<br/>year : nat<br/>Welcher Datentyp liegt hier vor?" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -161,6 +167,7 @@
 			{
 				"TYPE book == book(author : person,<br/>title : denotation ,<br/>year : nat<br/>Welcher der Folgenden Teile gehört nicht zur induzierten Signatur" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -185,6 +192,7 @@
 			{
 				"Um was für eine Traversierungsart handelt es sich bei preOrder" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -209,6 +217,7 @@
 			{
 				"Um was für eine Traversierungsart handelt es sich bei inOrder" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -233,6 +242,7 @@
 			{
 				"Um was für eine Traversierungsart handelt es sich bei postOrder" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -257,6 +267,7 @@
 			{
 				"Was für einen Vorteil hat eine inOrder Traversierung auf einem sortierte Binärbaum?" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -281,6 +292,7 @@
 			{
 				"Was geschieht, wenn man bei einem Baum mit mehr als einem Knoten eine Kante entfernt?" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -305,6 +317,7 @@
 			{
 				"Welches der Folgenden ist kein Listenfunktional" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -329,6 +342,7 @@
 			{
 				"Was macht filter?" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -353,6 +367,7 @@
 			{
 				"Wie heißt der Erfinder der Programmiersprache OPAL?" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -377,6 +392,7 @@
 			{
 				"Was ist ein Binärbaum?" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -401,6 +417,7 @@
 			{
 				"Was ist größer O(n²) oder O(n log(n))?" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -425,6 +442,7 @@
 			{
 				"FUN g: nat -> nat<br/>DEF g(n) == f(n-1) +5<br/> Welcher der Folgenden ist der passende Aufwandsterm?" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -449,6 +467,7 @@
 			{
 				"Wie viele Rekurrenzrelationen gibt es?" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -473,6 +492,7 @@
 			{
 				"Was ist eine verschränkte Rekursion?" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -497,6 +517,7 @@
 			{
 				"Was passiert bei einer baumartigen Rekursion?" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -521,6 +542,7 @@
 			{
 				"IF x < 5 THEN 1<br/>IF x > 5 THEN 2<br/>IF x = 5 THEN 3<br/>Wie heißt diese Struktur?" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -545,6 +567,7 @@
 			{
 				"f(x) = f(x-1)<br/>Um welche Rekursionsart handelt es sich?" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -569,6 +592,7 @@
 			{
 				"f(x) = 1 + f(x-1)<br/>Um welche Rekursionsart handelt es sich?" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -593,6 +617,7 @@
 			{
 				"f(x) = f(x-1) + f(x-2)<br/>Um welche Rekursionsart handelt es sich?" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -617,6 +642,7 @@
 			{
 				"f(x) = f(f(x*2))<br/>Um welche Rekursionsart handelt es sich?" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -641,6 +667,7 @@
 			{
 				"f(x) = g(x-1)<br/>g(x) = f(x-1)<br/>Um welche Rekursionsart handelt es sich?" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -665,6 +692,7 @@
 			{
 				"Welche der folgenden Signaturen passt zu einem Diskriminator" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -689,6 +717,7 @@
 			{
 				"TYPE animal = cat(name: string, age: nat)<br/>Welche der folgenden induzierten Signaturen passt zu einem Selektor für den Namen einer Katze?" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -713,6 +742,7 @@
 			{
 				"Welche der folgenden Signaturen passt zu einem Konstruktor" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -737,6 +767,7 @@
 			{
 				"TYPE animal = cat(name: string,age:nat)<br/>\tdog(name: string)<br/>Welcher Datentyp liegt hier vor" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -761,6 +792,7 @@
 			{
 				"DATA animal = cat dog karakal elefant<br/>Welcher Datentyp liegt hier vor" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -784,7 +816,8 @@
 			"questions"  :
 			{
 				"TYPE tree = node(key:alpha, left: tree, right: tree<br/>\tnil<br/>Welcher Datentyp liegt hier vor" : 0
-				},
+				}
+				"rating" : 0,,
 			"answers" :
 			{
 				"right" :
@@ -809,6 +842,7 @@
 			{
 				"FUN xxx: (in -> bool) ->  seq{in} -> seq{in}<br/> Die Signatur welches Listenfunktionals liegt hier vor?" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -833,6 +867,7 @@
 			{
 				"FUN xxx: (a ** b -> c) ** b  ->  seq{a} ** seq{b} -> seq{c}<br/> Die Signatur welches Listenfunktionals liegt hier vor?" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -857,6 +892,7 @@
 			{
 				"FUN xxx: (a ** b -> b) ** b -> seq{a} -> b<br/> Die Signatur welches Listenfunktionals liegt hier vor?" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -881,6 +917,7 @@
 			{
 				"FUN xxx: (a -> b) ->  seq{a} -> seq{b}<br/> Die Signatur welches Listenfunktionals liegt hier vor?" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -905,6 +942,7 @@
 			{
 				"Was bezeichnet man mit der Größe eines Baumes" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -929,6 +967,7 @@
 			{
 				"Was bezeichnet man mit der Höhe eines Baumes" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
@@ -953,6 +992,7 @@
 			{
 				"Was bezeichnet man mit der Pfadlänge eines Baumes" : 0
 			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
