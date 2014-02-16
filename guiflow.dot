@@ -1,0 +1,25 @@
+
+
+
+
+digraph G 
+{
+	ranksep = 2
+	concentrate = true
+	"start" [shape=none]
+	"start"-> "show Question" [label="[next Set]"]
+
+	"show Question" -> "show Result" [label="click Answer\n[Answer++,Question++]"]
+	"show Question" -> "show Question"[label="click Skip\n[Question++,next Set]"]
+
+	"show Result" -> "show Explanation" [label="click Explanation"]
+	"show Explanation" -> "show Result" [label="click Ok"]
+
+	"show Result" -> "show Question"[label="click Next\n[next Set]"]
+	"show Result" -> "show Question"[label="click UpVote\n[Rating++,next Set]"]
+	"show Result" -> "show Question"[label="click DownVote\n[Rating--,next Set]"]
+
+	"show Result" -> "Comment Dialog" [label="click Comment"]
+	"Comment Dialog" -> "show Result" [label="click cancel"]
+	"Comment Dialog" -> "show Question"[label="click submit\n[submit]"]
+}
