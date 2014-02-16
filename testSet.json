@@ -816,8 +816,8 @@
 			"questions"  :
 			{
 				"TYPE tree = node(key:alpha, left: tree, right: tree<br/>\tnil<br/>Welcher Datentyp liegt hier vor" : 0
-				}
-				"rating" : 0,,
+			},
+			"rating" : 0,
 			"answers" :
 			{
 				"right" :
